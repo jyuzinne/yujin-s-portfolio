@@ -1,5 +1,4 @@
 #skill {
-    
 }
 .skill__inner {
   padding: 16px;
@@ -43,7 +42,7 @@
 }
 .skill_desc p {
     margin-bottom: 30vh;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 @media (max-width: 800px){

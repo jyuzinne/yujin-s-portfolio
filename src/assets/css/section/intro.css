@@ -1,6 +1,9 @@
 
 #intro {
     height: 100vh;
+    background-image: url(../section/img/grabg16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .intro_inner{
     width: 100%;
@@ -12,18 +15,70 @@
     padding: 16px;
 }
 .intro_title{
-    font-size: 7vw;
+    font-size: 6vw;
     text-transform: uppercase;
-    line-height: 1.3;
+    line-height: 1.1;
     font-weight: 800;
     white-space: nowrap;
     text-indent: -0.5vw;
     letter-spacing: -0.3vw;
+    /* position: absolute;
+    top: 35%;
+    left: 5%; */
+}
+.one {
+    font-weight: 400;
+    font-size: 9vw;
     position: absolute;
-    top: 55%;
-    left: 3%;
+    top: 29%;
+    left: 15%;
+    color: #fff;
+    /* background: linear-gradient(to right top, #fd9ded, rgb(255, 82, 2)); */
+    /* color: transparent;
+    -webkit-background-clip: text; */
+}
+.two {
+    font-weight: 500;
+    font-size: 9.5vw;
+    letter-spacing: -0.4vw;
+    position: absolute;
+    top: 43%;
+    left: 35%;
+    color: #fff;
 
 }
+.three{
+    font-weight: 500;
+    font-size: 8.7vw;
+    letter-spacing: 0.05vw;
+    position: absolute;
+    top: 58%;
+    left: 28%;
+    color: tomato;
+}
+.four{
+    font-weight: 400;
+    font-size: 1.3vw;
+    writing-mode: vertical-rl;
+    letter-spacing: -0.03vw;
+    /* text-shadow: 10px 10px 8px rgba(41, 38, 32, 0.856); */
+    position: absolute;
+    top: 37%;
+    left: 1.5%;
+    color: #fff;
+}
+.five{
+    font-weight: 400;
+    font-size: 1.3vw;
+    writing-mode: vertical-lr;
+    letter-spacing: -0.03vw;
+    /* text-shadow: 10px 10px 8px rgba(41, 38, 32, 0.856); */
+    position: absolute;
+    top: 51%;
+    right: 1.7%;
+    color: #fff;
+}
+
 .intro_text{
     width: 100%;
     height: 40vh;

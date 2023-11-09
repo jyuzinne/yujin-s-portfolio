@@ -2,7 +2,7 @@
     --mainEng-font: "Montserrat";
     --mainKor-font: "nanumSquareNeo";
     --mainNum-font: "gmarket";
-  
+    
     --mainBg-color: #fff;
     --subBg100: #cdc0b1;
     --subBg200: #afa395;
@@ -42,5 +42,7 @@
 
 body {
     color: var(--black100);
-    background-color: var(--mainBg-color);
+    background-color: #fff;
+    /* background-image: url(../setting/img/grabg10.png); */
+    /* background-size: cover; */
 }
