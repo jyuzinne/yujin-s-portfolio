@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Noto+Serif+Old+Uyghur&family=Playfair+Display&display=swap');
+
 .site__inner {
     padding: 16px;
 }
@@ -8,12 +10,12 @@
     width: 70%;
     height: 5vw;
     font-size: 4vw;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 1.6;
     font-family: var(--mainKor-font);
     text-transform: uppercase;
     color: var(--black100);
-    border-bottom: 0.4vw solid var(--black100);
+    border-bottom: 0.3vw solid var(--black100);
     margin-bottom: 100px;
 }
 .site__title em {
@@ -29,19 +31,19 @@
     flex-direction: column;
     position: sticky;
     left: 0;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3); 
+    box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, .3); 
     border-radius: 13px;
 }
 .site__item.s1 {
-    background: url("../section/img/back2-1.jpg") no-repeat center / cover;
+    background: url("../section/img/slide1.jpg") no-repeat center / cover;
     top: 180px;
 }
 .site__item.s2 {
-    background: url("../section/img/back4.png") no-repeat center / cover;
+    background: url("../section/img/slide2-2.jpg") no-repeat center / cover;
     top: 200px;
 }
 .site__item.s3 {
-    background: url("../section/img/back1.png") no-repeat center /cover;
+    background: url("../section/img/slide3.jpg") no-repeat center /cover;
     top: 220px;
 }
 .site__item.s4 {
@@ -52,13 +54,15 @@
 .site__item .num {
     font-size: 6.5vw;
     line-height: 1;
-    font-weight: 900;
-    font-family: var(--mainNum-font);
+    font-weight: 300;
+    letter-spacing: -0.5vw;
+    /* font-family: var(--mainNum-font); */
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     left: 16vw;
     top: 12.4vw;
     color: var(--mainBg-color);
-    text-shadow: 5px 7px 14px rgba(41, 38, 32, 0.856);
+    /* text-shadow: 5px 10px 20px rgba(0, 0, 0, 0.856); */
 }
 .site__item .text {
     text-align: center;
@@ -115,7 +119,13 @@
     position: absolute;
     left: 17%;
     bottom: 20%;
-    font-size: 1vw;
+    /* font-size: 1vw; */
+}
+.site__item .kim {
+    color: var(--black200);
+}
+.site__item .kom {
+    border-left: 3px solid var(--black300);
 }
 @media (max-width: 800px){
     .site__title {
