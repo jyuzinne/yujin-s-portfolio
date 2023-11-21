@@ -1,7 +1,9 @@
+
 :root {
-    --mainEng-font: "Montserrat";
+    --mainEng-font: 'Arimo', sans-serif;
     --mainKor-font: "nanumSquareNeo";
     --mainNum-font: "gmarket";
+
     
     --mainBg-color: #fff;
     --subBg100: #cdc0b1;
@@ -41,8 +43,8 @@
 }
 
 body {
-    color: var(--black100);
-    background-color: #fff;
+    color: var(--black400);
+    background-color: #232429;
     /* background-image: url(../setting/img/grabg10.png); */
     /* background-size: cover; */
 }

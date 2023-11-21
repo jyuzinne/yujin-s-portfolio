@@ -1,50 +1,114 @@
 #skill {
 }
 .skill__inner {
-  padding: 16px;
+  padding: 10vw;
   display: flex;
   justify-content: space-between;
+  /* background-image: url("../section/img/ellipse1.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .skill_title {
   position: sticky;
   top: 70px;
   left: 0;
-  width: 48%;
-  font-size: 4vw;
+  width: 59%;
+  padding: 2vw 6vw 0 0;
+  line-height: 2.5vw;
+  font-size: 2.5vw;
   text-transform: uppercase;
-  height: 5vw;
-  font-weight: 600;
+  height: 24vw;
+  font-weight: 400;
   font-style: 4vw;
-  font-family: var(--mainKor-font);
-  color: var(--black100);
-  border-bottom: 0.3vw solid var(--black100);
+  /* font-family: 'Noto Serif', serif; */
+  color: #f9faff;
+  /* border-right: 0.1vw solid var(--black100); */
 }
 .skill_title em {
-    font-size: 1.25rem;
+    font-size: 1.5vw;
     font-weight: 400;
     line-height: 2;
+    font-family: 'Noto Serif', serif;
+}
+.skill_desc .kim{
+    /* background-color: #ffffff36; */
+    padding: 2vw 4vw 0vw 4vw;
+    border-radius: 2vw;
+    /* background: rgba( 255, 255, 255, 0.15 ); */
+    backdrop-filter: blur( 4.5px );
+    box-shadow: 0 8px 32px 0 rgba( 35, 36, 41, 0.37 );
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 .skill_desc {
-    width: 50%;
+    width: 422vw;
+    padding-left: 11vw;
+    padding-top: 10vw;
+    /* border-left: 0.1vw solid var(--black400); */
 }
 .skill_desc span {
-    font-size: 5vw;
-    line-height: 1;
-    font-weight: 500;
+    font-size: 1vw;
+    font-family: 'Noto Serif', serif;
+    font-weight: 200;
     line-height: 1.3;
-    font-family: var(--mainNum-font);
 }
 .skill_desc h3 {
-    font-size: 1.5rem;
-    text-decoration: underline;
-    text-underline-position: under;
+    font-size: 1.3vw;
     margin-bottom: 1vw;
+    font-family: var(--mainKor-font);
 }
 .skill_desc p {
-    margin-bottom: 30vh;
-    font-size: 1.2rem;
+    margin-bottom: 20vh;
+    font-size: 0.9vw;
+    font-family: var(--mainKor-font);
+    width: 43vw;
 }
-
+.skill_desc .kimb {
+    position: absolute;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill_desc .ff{
+    margin: 0 1vw 13vw 0;
+    /* background: #ffffff50; */
+    border-radius: 11px;
+    padding: 0.1vw 1.2vw;
+    font-size: 0.9vw;
+    border: 1px solid #fff;
+}
+.skill_desc .kom{
+    background-image: url("../section/img/icons4.png");
+    width: 49vw;
+    height: 19vh;
+    background-repeat: no-repeat;
+}
+@media (max-width: 1200px){
+    .skill_inner {
+        flex-direction: column;
+    }
+    .skill_title {
+        width: 100%;
+        margin-bottom: 10vw;
+        font-size: 3vw;
+        top: 68px;
+    }
+    .skill_desc {
+        width: 110%;
+    }
+    .skill_desc span {
+        font-size: 2.5vw;
+    }
+    .skill_desc h3 {
+        font-size: 2.3vw;
+        margin-bottom: 1vw;
+    }
+    .skill_desc p {
+        margin-bottom: 30vh;
+        font-size: 1.5vw;
+    }
+}
 @media (max-width: 800px){
     .skill_inner {
         flex-direction: column;
@@ -52,14 +116,24 @@
     .skill_title {
         width: 100%;
         margin-bottom: 10vw;
-        font-size: auto;
+        font-size: 3vw;
         top: 68px;
-        background-color: var(--mainBg-color);
     }
     .skill_desc {
-        width: 100%;
+        width: 110%;
     }
     .skill_desc span {
-        font-size: 20vw;
+        font-size: 2.5vw;
     }
+    .skill_desc h3 {
+        font-size: 2.3vw;
+        margin-bottom: 1vw;
+    }
+    .skill_desc p {
+        margin-bottom: 30vh;
+        font-size: 2vw;
+    }
+    
 }
+
+
