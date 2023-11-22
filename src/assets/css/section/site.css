@@ -55,11 +55,12 @@
 }
 .site__item.s4 {
     background-color: #232429;
-    /* background: url("../section/img/slide7.png") no-repeat; */
+    background: url("../section/img/slide24.png") no-repeat;
     height: 116vh;
     font-size: 2vw;
     text-align: center;
     top: 5vw;
+    background-position: center;
 }
 .site__item .num {
     font-size: 6.5vw;
@@ -97,7 +98,7 @@
     font-weight: 300;
     letter-spacing: -0.5vw;
     text-transform: uppercase;
-    font-size: 5.5vw; 
+    font-size: 4.5vw; 
 }
 .site__item .btn a {
     /* text-decoration: underline; */
@@ -150,6 +151,17 @@
 }
 .site__item .kom {
     border-left: 3px solid var(--black300);
+}
+
+@media (max-width: 1700px){
+    .site__item.s4 {
+        background-color: #232429;
+        background-image: none;
+        height: 89vh;
+        font-size: 40px;
+        text-align: center;
+        top: 5vw;
+    }
 }
 
 @media (max-width: 580px){
