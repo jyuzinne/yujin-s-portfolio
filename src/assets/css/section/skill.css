@@ -69,9 +69,10 @@ ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 .skill_desc .ff{
-    margin: 0 1vw 13vw 0;
+    margin: 0 1vw 0.8vw 0;
     /* background: #ffffff50; */
     border-radius: 11px;
     padding: 0.1vw 1.2vw;

@@ -5,11 +5,12 @@
 }
 .site__title {
     position: sticky;
+    margin-top: 12vw;
     top: -6vw;
     text-align: center;
     left: 29vw;
     width: 45vw;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     font-weight: 500;
     line-height: 2.5vw;
     /* font-family: var(--mainKor-font); */
@@ -233,4 +234,5 @@
         top: 5vw;
         left: 78vw;
     }
+    
 }

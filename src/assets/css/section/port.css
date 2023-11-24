@@ -11,9 +11,10 @@
     width: 100%;
     /* height: 5vw; */
     margin-top:5vw;
+    margin-bottom: 2.5vw;
     text-align: center;
-    font-size: 2vw;
-    font-weight: 600;
+    font-size: 1.5vw;
+    font-weight: 500;
     line-height: 1.6;
     text-transform: uppercase;
     color: #f9faff;
@@ -205,6 +206,16 @@
     }
     .port__item .title{
         display: none;
+    }
+    .port__title {
+        width: 100%;
+        margin-bottom: 16px;
+        font-size: 30px;
+        height: auto;
+        top: 68px;
+        z-index: 1000;
+        /* background-color: var(--mainBg-color); */
+
     }
 }
 @media (max-width: 800px){
