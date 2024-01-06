@@ -189,7 +189,7 @@
 .intro_lines.bottom .line:nth-child(7){
     height: 1px; 
 }
-@media (max-width: 1600px){
+@media (max-width: 1000px){
     .header_logo{
     font-size: 0.6vw;
     }
